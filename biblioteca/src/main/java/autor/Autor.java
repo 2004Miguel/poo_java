@@ -5,9 +5,8 @@ public class Autor {
     private String nacionalidad;
 
     // Constructor
-    public Autor(String nombre, String nacionalidad) {
-        this.nombre = nombre;
-        this.nacionalidad = nacionalidad;
+    public Autor() {
+        System.out.println("Autor creado con éxito");
     }
 
     // Getters y Setters

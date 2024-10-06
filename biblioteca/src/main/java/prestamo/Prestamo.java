@@ -12,11 +12,8 @@ public class Prestamo {
     private Date fechaDevolucion;
 
     // Constructor
-    public Prestamo(Libro libro, Cliente cliente, Date fechaPrestamo, Date fechaDevolucion) {
-        this.libro = libro;
-        this.cliente = cliente;
-        this.fechaPrestamo = fechaPrestamo;
-        this.fechaDevolucion = fechaDevolucion;
+    public Prestamo() {
+        System.out.println("Solicitud de prestamo completada con éxito");   
     }
 
     // Getters y Setters

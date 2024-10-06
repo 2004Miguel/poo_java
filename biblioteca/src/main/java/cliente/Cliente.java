@@ -4,12 +4,13 @@ public class Cliente {
     private String nombre;
     private String numeroTelefono;
     private String direccion;
+    private int edad;
+    private String email;
 
     // Constructor
-    public Cliente(String nombre, String numeroTelefono, String direccion) {
-        this.nombre = nombre;
-        this.numeroTelefono = numeroTelefono;
-        this.direccion = direccion;
+    public Cliente() {
+        System.out.println("Cliente credo con éxito");
+
     }
 
     // Getters y Setters
@@ -35,6 +36,22 @@ public class Cliente {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public int getEdad(){
+        return edad;
+    }
+
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+
+    public String getEmail(){
+        return email;
+    }
+
+    public void setEmail(String email){
+        this.email = email;
     }
 }
 

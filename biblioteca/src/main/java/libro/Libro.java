@@ -12,13 +12,8 @@ public class Libro {
     private String genero;
     
     // Constructor
-    public Libro(String titulo, Autor autor, Editorial editorial, String isbn, int anioPublicacion, String genero) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.editorial = editorial;
-        this.isbn = isbn;
-        this.anioPublicacion = anioPublicacion;
-        this.genero = genero;
+    public Libro() {
+        System.out.println("Item creado con éxito");
     }
 
     // Getters y Setters
